@@ -15,14 +15,12 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "install": "webdriver-manager update --standalone --versions.chrome 2.28 --gecko false",
     "start": "grunt serve",
     "build": "grunt build",
     "test": ":",
     "release": "wnpm-release --no-shrinkwrap"
   },
   "dependencies": {
-    "angular": "^1.4.7",
     "glob": "^5.0.15"
   },
   "devDependencies": {
